@@ -33,7 +33,7 @@ const iconSets = {
 };
 
 const propTypes = {
-  buttonStyle: ViewPropTypes.style,
+  buttonStyle: PropTypes.style,
   disabled: PropTypes.bool.isRequired,
   halfStarEnabled: PropTypes.bool.isRequired,
   icoMoonJson: PropTypes.string,
