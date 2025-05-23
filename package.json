@@ -38,7 +38,7 @@
   "dependencies": {
     "prop-types": "^15.5.10",
     "react-native-animatable": "^1.2.4",
-    "react-native-button": "git+https://github.com/parashram-tatamotors/react-native-button.git",
+    "react-native-button": "github:parashram-tatamotors/react-native-button",
     "react-native-vector-icons": "^4.5.0"
   },
   "repository": {
