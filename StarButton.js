@@ -48,7 +48,7 @@ const propTypes = {
   ]).isRequired,
   starSize: PropTypes.number.isRequired,
   activeOpacity: PropTypes.number.isRequired,
-  starStyle: ViewPropTypes.style,
+  starStyle: PropTypes.style,
   onStarButtonPress: PropTypes.func.isRequired,
 };
 

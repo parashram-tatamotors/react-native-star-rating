@@ -23,8 +23,8 @@ const ANIMATION_TYPES = [
 const propTypes = {
   activeOpacity: PropTypes.number,
   animation: PropTypes.oneOf(ANIMATION_TYPES),
-  buttonStyle: ViewPropTypes.style,
-  containerStyle: ViewPropTypes.style,
+  buttonStyle: PropTypes.style,
+  containerStyle: PropTypes.style,
   disabled: PropTypes.bool,
   emptyStar: PropTypes.oneOfType([
     PropTypes.string,
@@ -52,7 +52,7 @@ const propTypes = {
   rating: PropTypes.number,
   reversed: PropTypes.bool,
   starSize: PropTypes.number,
-  starStyle: ViewPropTypes.style,
+  starStyle: PropTypes.style,
   selectedStar: PropTypes.func,
 };
 
